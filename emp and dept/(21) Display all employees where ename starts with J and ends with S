@@ -1,0 +1,10 @@
+select ename
+from emp
+where ename LIKE 'J%S';
+
+output:-
+
+ENAME
+
+JONES
+JAMES
