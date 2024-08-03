@@ -1,0 +1,12 @@
+select distinct job
+from emp;
+
+output:-
+
+JOB 
+
+ANALYST
+CLERK
+SALESMAN
+MANAGER
+PRESIDENT
