@@ -1,0 +1,2 @@
+select *from emp
+where (mgr= 7698 or mgr=7566) and sal>1500;
