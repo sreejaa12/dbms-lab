@@ -1,1 +1,2 @@
-
+select ename,hiredate from emp
+where hiredate between '31-dec-80' and '31-dec-81';
