@@ -1,0 +1,7 @@
+select avg(sal) AS avg
+from emp;
+group by  SALESMAN;
+
+output:-
+                  AVG
+2073.214285714285714285714285714285714286
