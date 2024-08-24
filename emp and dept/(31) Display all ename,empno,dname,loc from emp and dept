@@ -1,0 +1,2 @@
+select ename,empno,dname,loc
+from emp natural join dept;
