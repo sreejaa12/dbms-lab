@@ -1,0 +1,17 @@
+SELECT ename
+from emp
+where length(ename) = 5;
+
+
+OUTPUT:-
+
+ENAME 
+
+BLAKE
+CLARK
+JONES
+SCOTT
+SMITH
+ALLEN
+ADAMS
+JAMES
