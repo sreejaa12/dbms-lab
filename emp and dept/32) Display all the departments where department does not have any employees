@@ -1,0 +1,10 @@
+select deptno
+from dept
+MINUS
+select deptno
+from emp;
+
+OUTPUT:-
+
+DEPTNO
+ 40
