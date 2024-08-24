@@ -1,7 +1,15 @@
 select avg(sal)
 from emp
-    where job='SALESMAN';
+where job='SALESMAN';
 
-output:-
+     or
+
+select avg(sal) 
+from emp 
+GROUP BY job 
+having job='SALESMAN'
+   
+
+   output:-
 AVG(SAL)
 1400
