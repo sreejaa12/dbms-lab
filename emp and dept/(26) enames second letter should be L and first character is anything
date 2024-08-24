@@ -1,6 +1,6 @@
 select ename
-from emp;
-where ename LIKE '_l%';
+from emp
+where ename LIKE '_L%';
 
 
 OUTPUT:-
@@ -8,17 +8,6 @@ OUTPUT:-
 
 ENAME
 
-KING
 BLAKE
 CLARK
-JONES
-SCOTT
-FORD
-SMITH
 ALLEN
-WARD
-MARTIN
-TURNER
-ADAMS
-JAMES
-MILLER
