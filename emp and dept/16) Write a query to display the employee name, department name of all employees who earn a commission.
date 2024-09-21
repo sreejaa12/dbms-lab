@@ -1,0 +1,11 @@
+select ename,dname
+from emp e,dept d
+where e.deptno=d.deptno and comm is not null;
+
+
+OUTPUT:-
+
+ENAME   DNAME
+ALLEN	  SALES
+WARD	  SALES
+MARTIN	SALES
