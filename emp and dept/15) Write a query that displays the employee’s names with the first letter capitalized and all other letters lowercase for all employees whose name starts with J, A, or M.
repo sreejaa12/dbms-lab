@@ -1,0 +1,13 @@
+select initcap(ename) as ename
+from emp
+where ename like 'J%' or ename like 'A%' or ename like 'M%';
+
+OUTPUT:-
+
+ENAME
+Jones
+Allen
+Martin
+Adams
+James
+Miller
