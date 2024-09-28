@@ -1,0 +1,14 @@
+select ename
+from emp
+where deptno = 30;
+
+OUTPUT:-
+
+ENAME
+
+BLAKE
+ALLEN
+WARD
+MARTIN
+TURNER
+JAMES
