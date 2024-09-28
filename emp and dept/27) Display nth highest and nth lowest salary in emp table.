@@ -1,0 +1,6 @@
+select max(sal) as h_sal,min(sal) as l_sal
+from emp;
+
+OUTPUT:-
+H_SAL   L_SAL
+5000	  800
