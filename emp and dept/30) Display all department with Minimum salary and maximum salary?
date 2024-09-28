@@ -1,0 +1,10 @@
+select deptno,max(sal) as max,min(sal) as min
+from emp
+group by deptno
+order by deptno;
+
+OUTPUT:-
+DEPTNO  MAX   MIN
+ 10	    5000	1300
+ 20	    3000	800
+ 30	    2850	950
