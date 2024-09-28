@@ -2,6 +2,9 @@ SELECT ename
 from emp 
 where length(ename) = 5
 
+       OR
+select ename from emp where ename like '_____';
+
 
 OUTPUT:-
 
