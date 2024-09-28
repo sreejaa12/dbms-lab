@@ -1,0 +1,18 @@
+select ename
+from emp
+where job<>'PRESIDENT' and job<>'MANAGER';
+
+output:-
+
+ENAME
+
+SCOTT
+FORD
+SMITH
+ALLEN
+WARD
+MARTIN
+TURNER
+ADAMS
+JAMES
+MILLER
