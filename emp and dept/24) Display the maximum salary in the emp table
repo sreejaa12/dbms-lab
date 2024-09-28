@@ -1,0 +1,8 @@
+select max(sal) as sal
+from emp;
+
+OUTPUT:-
+
+SAL
+
+5000
