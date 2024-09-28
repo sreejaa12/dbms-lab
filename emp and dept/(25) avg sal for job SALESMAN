@@ -1,15 +1,15 @@
-select avg(sal)
+select avg(sal) as sal
 from emp
 where job='SALESMAN';
 
      or
 
-select avg(sal) 
+select avg(sal) as sal
 from emp 
 GROUP BY job 
 having job='SALESMAN'
    
 
    output:-
-AVG(SAL)
+SAL
 1400
