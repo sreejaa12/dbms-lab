@@ -1,0 +1,11 @@
+select sum(sal) as sal
+from emp
+group by deptno;
+
+OUTPUT:-
+
+SAL
+
+9400
+10875
+8750
