@@ -2,6 +2,13 @@ select ename
 from emp
 where deptno = 30;
 
+     OR
+
+select ename
+from emp
+where deptno<>10 and deptno<>20 and deptno<>40;
+
+
 OUTPUT:-
 
 ENAME
